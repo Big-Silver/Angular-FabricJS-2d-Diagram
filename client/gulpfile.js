@@ -34,4 +34,5 @@ gulp.task('browser-sync', function() {
 });
 
 */
+gulp.task('default', ['webserver','hello']);
 
