@@ -14,11 +14,18 @@ visit to https://semaphoreci.com/community/tutorials/getting-started-with-gulp-j
 
 ## Install and Run
 
-`git clone https://github.com/Big-Silver/Angular-FabricJS-2d-Diagram.git 2d-diagram`
-`cd 2d-diagram/client`
-`npm install`
-`gulp`
-visit `http://localhost:8001`
+```bash
+# clone our repo
+$ git clone https://github.com/Big-Silver/Angular-FabricJS-2d-Diagram.git 2d-diagram
+# change directory to your app
+$ cd 2d-diagram/client
+# install npm
+$ npm install
+# Run project
+$ gulp
+# Visit to the browser
+$ http://localhost:8001
+```
 
 
 
