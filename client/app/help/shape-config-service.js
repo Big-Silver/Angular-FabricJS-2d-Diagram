@@ -31,7 +31,7 @@
         "id"              : NODE_ID,
         "name"            : "NODE",
         "value"           : "Node",
-        "src"             : "content/images/icons/32x32/light-gray.png",
+        "src"             : "content/images/icons/light-gray.png",
         "backgroundColor" : "GRAY"
       }
 
@@ -40,7 +40,7 @@
         "id"              : SQUARE_ID,
         "name"            : "SQUARE",
         "value"           : "Square",
-        "src"             : "content/images/icons/32x32/light-gray.png",
+        "src"             : "content/images/icons/light-gray.png",
         "backgroundColor" : "GRAY"
       }
       */
@@ -50,7 +50,7 @@
        "id"              : RECTANGLE_ID,
        "name"            : "RECTANGLE",
        "value"           : "Rectangle",
-       "src"             : "content/images/icons/32x32/light-gray.png",
+       "src"             : "content/images/icons/light-gray.png",
        "backgroundColor" : "LIGHTGRAY"
        }
        */
