@@ -1,31 +1,26 @@
 # AngularJS & FabricJS - 2D - Diagram
 
-A browser-based 2D diagram editor, built using AngularJS, AngularUI and Fabric.js.
-
 ![screenshot](client/content/images/my-2d-diagram-editor-7.png)
 
-Formatting shapes and containers:
+## About
 
-![screenshot](content/images/my-2d-diagram-editor-formatting-shapes.png)
- 
-Interactivity:
+A browser-based 2D diagram editor, built using AngularJS, AngularUI and Fabric.js.
+This project is built by [Big-Silver].
 
-![screenshot](client/content/images/my-2d-diagram-editor-interactivity.png)
+## Pre-Install
 
-How to highlight ports:
+If you didn't install bower and gulp, For install for bower visit to https://www.npmjs.com/package/bower and for install for gulp 
+visit to https://semaphoreci.com/community/tutorials/getting-started-with-gulp-js
 
- ![screenshot](client/content/images/my-2d-diagram-editor-with-ports.png)
+## Install and Run
 
-How to draw connections:
+`git clone https://github.com/Big-Silver/Angular-FabricJS-2d-Diagram.git 2d-diagram`
+`cd 2d-diagram/client`
+`npm install`
+`gulp`
+visit `http://localhost:8001`
 
-![screenshot](client/content/images/my-2d-diagram-editor-draw-connector-with-arrow.png)
 
-How to update connections:
 
-![screenshot](client/content/images/my-2d-diagram-editor-with-ports-4.png)
-
-A sample Logical Security Zone Model diagram:
-
-![screenshot](client/content/images/logical-security-zone-model-diagram.png)
 
 
