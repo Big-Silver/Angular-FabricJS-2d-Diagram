@@ -1,0 +1,149 @@
+<!--
+  Note: Where possible you should prefer the translateDirective (e.g., translate="{{ 'BRAND_NAME' }}") to
+  the translateFilter (e.g., {{ 'BRAND_NAME' | translate }}).
+-->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+      <span class="sr-only">{{ 'TOGGLE_NAVIGATION' | translate }}</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="" translate="{{ 'BRAND_NAME' }}"></a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+
+    <ul class="nav navbar-nav">
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'FILE' | translate }} <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li class="disabled">
+            <a href="" ng-click="main.fileNew()">
+              {{ 'FILE_NEW' | translate }}
+            </a>
+          </li>
+          <li class="divider"></li>
+          <li class="disabled">
+            <a href="" translate="{{ 'CLOSE' }}"></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'EDIT' | translate }} <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li class="disabled">
+            <a href="">
+              <span class="fa fa-undo fa-fw"></span>&nbsp;{{ 'UNDO' | translate }}
+            </a>
+          </li>
+          <li class="disabled">
+            <a href="">
+              <span class="fa fa-repeat fa-fw"></span>&nbsp;{{ 'REDO' | translate }}
+            </a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="" ng-click="main.editDelete()">
+              <span class="fa fa-trash fa-fw"></span>&nbsp;{{ 'DELETE' | translate }}
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'VIEW' | translate }} <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu">
+          <li>
+            <a href="" ng-click="main.toggleGrid()">
+              <span class="glyphicon glyphicon-th"></span>&nbsp;{{ 'GRID' | translate }}
+            </a>
+          </li>
+          <li>
+            <a href="" ng-click="main.toggleSnapToGrid()">
+              <span class="fa fa-magnet"></span>&nbsp;{{ 'SNAP_TO_GRID' | translate }}
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'ARRANGE' | translate }} <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li>
+            <a href="" ng-click="main.bringForward()" translate="{{ 'BRING_FORWARD' }}"></a>
+          </li>
+          <li>
+            <a href="" ng-click="main.bringToFront()" translate="{{ 'BRING_TO_FRONT' }}"></a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="" ng-click="main.sendBackward()" translate="{{ 'SEND_BACKWARD' }}"></a>
+          </li>
+          <li>
+            <a href="" ng-click="main.sendToBack()" translate="{{ 'SEND_TO_BACK' }}"></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'OPTIONS' | translate }} <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu">
+          <li class="disabled">
+            <a href="" translate="{{ 'COMING_SOON' }}"></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'LANGUAGE' | translate }} <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu">
+          <li>
+            <a href="" ng-click="main.switchLanguage('en')" translate="{{ 'ENGLISH' }}"></a>
+          </li>
+          <li>
+            <a href="" ng-click="main.switchLanguage('de')" translate="{{ 'GERMAN' }}"></a>
+          </li>
+          <li>
+            <a href="" ng-click="main.switchLanguage('pl')" translate="{{ 'POLISH' }}"></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown" uib-dropdown>
+        <a href="" uib-dropdown-toggle class="dropdown-toggle" data-toggle="dropdown">
+          {{ 'HELP' | translate }} <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu">
+          <li class="disabled">
+            <a href="" translate="{{ 'COMING_SOON' }}"></a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a class="navbar-brand sign-in" style="padding-right: 35px;" href="" translate="{{ 'SIGN_IN' }}"></a>
+      </li>
+    </ul>
+
+  </div><!-- /.navbar-collapse -->
+</nav>
+

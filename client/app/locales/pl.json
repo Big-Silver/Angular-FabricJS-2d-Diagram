@@ -1,0 +1,84 @@
+{
+  "BRAND_NAME":                  "Rob's Awesome 2D Diagram Editor",
+
+  "TOGGLE_NAVIGATION":           "TNawigacja",
+  "SIGN_IN":                     "Logowanie",
+
+  "ENGLISH":                     "Angielski",
+  "POLISH":                      "Polskie",
+  "GERMAN":                      "Niemiecki",
+
+  "FILE":                        "Plik",
+  "FILE_NEW":                    "Nowy...",
+  "CLOSE":                       "Zamknij",
+
+  "EDIT":                        "Edycja",
+  "UNDO":                        "Cofnij",
+  "REDO":                        "Powtorz",
+  "CUT":                         "Cut",
+  "COPY":                        "Copy",
+  "PASTE":                       "Paste",
+  "DELETE":                      "Usun",
+
+  "VIEW":                        "Pokaz",
+  "GRID":                        "Siec",
+  "SNAP_TO_GRID":                "Snap to Grid",
+
+  "ARRANGE":                     "Arrange",
+  "BRING_FORWARD":               "Bring Forward",
+  "BRING_TO_FRONT":              "Bring to Front",
+  "SEND_BACKWARD":               "Send Backward",
+  "SEND_TO_BACK":                "Send to Back",
+
+  "OPTIONS":                     "Opcje",
+  "LANGUAGE":                    "Jezyk",
+  "HELP":                        "Pomoc",
+
+  "ZOOM_IN":                     "Zoom In",
+  "ZOOM_OUT":                    "Zoom Out",
+
+  "POINTER":                     "Set Pointer Mode",
+  "CONNECTOR":                   "Set Connector Mode",
+  "LOCK":                        "Zablokuj",
+  "COMMENT":                     "Komentarz",
+
+  "SHAPES":                      "Ksztalty",
+  "SQUARE":                      "Kwadraty",
+  "RECTANGLE":                   "Prostokąt",
+
+  "NODE":                        "Node",
+
+  "CONTAINERS":                  "Kontenery",
+  "CONTROLLED_ZONE":             "Strefa kontrolowana",
+  "RESTRICTED_ZONE":             "Strefa ograniczona",
+  "SECURED_ZONE":                "Strefa zabezpieczona",
+  "PARTNER_ZONE":                "Strefa partnerska",
+  "MANAGEMENT_ZONE":             "Strefa zarzadzania",
+
+  "FORMAT_DIAGRAM":              "Format Diagram",
+
+  "FORMAT_SHAPE":                "Format Shape",
+
+  "TEXT":                        "Text",
+  "NAME":                        "Name",
+  "FONT":                        "Font",
+  "FONT_SIZE":                   "Font Size",
+  "FONT_STYLE":                  "Font Style",
+  "BOLD":                        "Bold",
+  "ITALIC":                      "Italic",
+  "ALIGNMENT":                   "Alignment",
+  "ALIGN_LEFT":                  "Align Left",
+  "ALIGN_CENTER":                "Align Center",
+  "ALIGN_RIGHT":                 "Align Right",
+  "ALIGN_TOP":                   "Align Top",
+  "ALIGN_MIDDLE":                "Align Middle",
+  "ALIGN_BOTTOM":                "Align Bottom",
+
+  "STYLE":                       "Style",
+
+  "ARRANGE":                     "Arrange",
+
+
+  "COMING_SOON":                 "Wiecej w przyszlosci :)"
+}
+

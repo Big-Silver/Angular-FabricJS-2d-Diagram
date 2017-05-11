@@ -1,0 +1,85 @@
+<!--
+  Note: Where possible you should prefer the translateDirective (e.g., translate="{{ 'BRAND_NAME' }}") to
+  the translateFilter (e.g., {{ 'BRAND_NAME' | translate }}).
+-->
+
+<uib-accordion close-others="false">
+  <uib-accordion-group class="accordion-panel" ng-init="formatDiagram.open = true" is-open="formatDiagram.open">
+
+    <uib-accordion-heading>
+      {{ 'FORMAT_DIAGRAM' | translate }}
+      <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': formatDiagram.open,
+          'glyphicon-chevron-right': !formatDiagram.open}">
+      </i>
+    </uib-accordion-heading>
+
+    <div class="panel-content">
+      <form name="diagramForm">
+
+        <div class="form-group">
+          <label translate="{{ 'PAPER_SIZE' }}"></label>
+          <select ng-model="main.diagram.paperSize" class="form-control form-content">
+            <option ng-repeat="paperSize in main.paperSizes track by paperSize.id">{{paperSize.value}}</option>
+          </select>
+
+          <label class="radio-button-label">
+            <input type="radio" ng-checked="main.pageView.portrait"
+                   ng-click="main.togglePageViewOrientation()">&nbsp;{{ 'PORTRAIT' | translate }}&nbsp;&nbsp;
+          </label>
+          <label class="radio-button-label">
+              <input type="radio" ng-checked="main.pageView.landscape"
+                     ng-click="main.togglePageViewOrientation()">&nbsp;{{ 'LANDSCAPE' | translate }}
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label translate="{{ 'VIEW' }}"></label>
+
+          <div class="clearfix"></div>
+
+          <label>
+            <input type="radio" ng-checked="main.grid.show"
+                   ng-click="main.showGrid(!main.grid.show)">&nbsp;{{ 'GRID' | translate }}
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label translate="{{ 'OPTIONS' }}"></label>
+
+          <div class="clearfix"></div>
+
+          <label>
+            <input type="radio" ng-checked="main.grid.snapTo"
+                   ng-click="main.snapToGrid(!main.grid.snapTo)">&nbsp;{{ 'SNAP_TO_GRID' | translate }}
+          </label>
+        </div>
+
+
+
+      </form>
+    </div>
+
+  </uib-accordion-group>
+</uib-accordion>
+
+<!--
+
+<uib-tabset justified="true">
+  <uib-tab heading="{{ 'FONT' | translate }}">
+    <div class="tab-content">
+      <form name="shapeForm">
+
+        <div class="form-group">
+          <label translate="{{ 'FONT' }}"></label>
+          <select ng-model="main.shape.fontFamily" class="form-control form-content">
+            <option ng-repeat="font in main.fontFamilies track by font.id">{{font.value}}</option>
+          </select>
+        </div>
+
+
+      </form>
+    </div>
+  </uib-tab>
+</uib-tabset>
+
+-->

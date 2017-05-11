@@ -1,0 +1,95 @@
+{
+  "BRAND_NAME":                  "Rob's Awesome 2D Diagram Editor",
+
+  "TOGGLE_NAVIGATION":           "Toggle navigation",
+  "SIGN_IN":                     "Sign In",
+
+  "ENGLISH":                     "English",
+  "POLISH":                      "Polish",
+  "GERMAN":                      "German",
+
+  "FILE":                        "File",
+  "FILE_NEW":                    "New...",
+  "CLOSE":                       "Close",
+
+  "EDIT":                        "Edit",
+  "UNDO":                        "Undo",
+  "REDO":                        "Redo",
+  "CUT":                         "Cut",
+  "COPY":                        "Copy",
+  "PASTE":                       "Paste",
+  "DELETE":                      "Delete",
+
+  "VIEW":                        "View",
+  "GRID":                        "Grid",
+  "SNAP_TO_GRID":                "Snap to Grid",
+
+  "ARRANGE":                     "Arrange",
+  "BRING_FORWARD":               "Bring Forward",
+  "BRING_TO_FRONT":              "Bring to Front",
+  "SEND_BACKWARD":               "Send Backward",
+  "SEND_TO_BACK":                "Send to Back",
+
+  "OPTIONS":                     "Options",
+  "LANGUAGE":                    "Language",
+  "HELP":                        "Help",
+
+  "ZOOM_IN":                     "Zoom In",
+  "ZOOM_OUT":                    "Zoom Out",
+
+  "POINTER":                     "Set Pointer Mode",
+  "CONNECTOR":                   "Set Connector Mode",
+  "LOCK":                        "Lock",
+  "COMMENT":                     "Comment",
+
+  "SHAPES":                      "Shapes",
+  "SQUARE":                      "Square",
+  "RECTANGLE":                   "Rectangle",
+
+  "NODE":                        "Node",
+
+  "CONTAINERS":                  "Containers",
+  "CONTROLLED_ZONE":             "Controlled Zone",
+  "RESTRICTED_ZONE":             "Restricted Zone",
+  "SECURED_ZONE":                "Secured Zone",
+  "PARTNER_ZONE":                "Partner Zone",
+  "MANAGEMENT_ZONE":             "Management Zone",
+
+  "FORMAT_DIAGRAM":              "Format Diagram",
+  "PAPER_SIZE":                  "Paper Size",
+  "PORTRAIT":                    "Portrait",
+  "LANDSCAPE":                   "Landscape",
+
+  "FORMAT_SHAPE":                "Format Shape",
+  "TEXT":                        "Text",
+  "NAME":                        "Name",
+  "FONT":                        "Font",
+  "FONT_SIZE":                   "Font Size",
+  "FONT_STYLE":                  "Font Style",
+  "BOLD":                        "Bold",
+  "ITALIC":                      "Italic",
+  "ALIGNMENT":                   "Alignment",
+  "ALIGN_LEFT":                  "Align Left",
+  "ALIGN_CENTER":                "Align Center",
+  "ALIGN_RIGHT":                 "Align Right",
+  "ALIGN_TOP":                   "Align Top",
+  "ALIGN_MIDDLE":                "Align Middle",
+  "ALIGN_BOTTOM":                "Align Bottom",
+
+  "STYLE":                       "Style",
+  "STYLES":                      "Styles",
+  "SHAPE_STYLES":                "Shape Styles",
+  "THEME":                       "Theme",
+  "THEME_STYLES":                "Theme Styles",
+  "FILL":                        "Fill",
+  "LINE":                        "Line",
+  "EFFECTS":                     "Effects",
+
+  "ARRANGE":                     "Arrange",
+  "ALIGN":                       "Align",
+  "POSITION":                    "Position",
+  "GROUP":                       "Group",
+
+
+  "COMING_SOON":                 "Coming Soon :)"
+}

@@ -1,0 +1,126 @@
+/* .nav, .pagination, .carousel, .panel-title a { cursor: pointer; } */
+
+/*  See: http://angular-ui.github.io/bootstrap/#/getting_started */
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+body {
+  font-family: 'Walter Turncoat', serif;
+  font-size: 14px;
+  overflow: hidden;  /* hide the scrollbar */
+}
+
+.sign-in {
+  padding-right: 35px;
+}
+
+.toolbar {
+  top: 51px;
+}
+
+.sidebar-left {
+  top: 101px;  /* menubar 50 + toolbar 51 */
+  left: 0;
+
+  border-right: 1px solid #eee;
+  bottom: 0;
+  display: block;
+  padding: 0px;  /* padding: 5px; */
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  /* z-index: 1000;  */
+}
+
+.content-container {
+  top: 101px;  /* menubar 50 + toolbar 51 */
+
+  display: block;
+  padding: 0px;
+
+  /* z-index: 1001;  */
+}
+
+.content {
+  top: 101px;  /* menubar 50 + toolbar 51 */
+
+  background-color: #f5f5f5;
+  display: block;
+  padding: 10px;
+  position: fixed;
+  overflow-x: auto;
+  overflow-y: auto;
+
+  width: 800px;
+  height: 600px;
+}
+
+.sidebar-right {
+  top: 101px;  /* menubar 50 + toolbar 51 */
+
+  border-left: 1px solid #eee;
+  bottom: 0;
+  display: block;
+  padding: 0px;  /* padding: 5px; */
+  position: fixed;
+  overflow-x: hidden;  /* hide the scrollbar */
+  overflow-y: auto;
+
+  /* z-index: 1002;  */
+}
+
+.accordion-panel .panel-body {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+.panel-content {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.tab-content {
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+
+.radio-button-label {
+  padding-top: 10px;
+}
+
+.nav-tabs.nav-justified > li.active > a,
+.nav-tabs.nav-justified > li.active > a:hover,
+.nav-tabs.nav-justified > li.active > a:focus{
+  background-color: #f5f5f5; !important;
+  border-bottom-color: #f5f5f5;
+}
+
+.form-content {
+  font-family: 'Tahoma', serif;
+  font-size: 14px;
+}
+
+.thumbnail-column {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.bootstrap-select > .btn {
+  height: 34px;
+}
+
+/*
+
+background-color: #f5f5f5;
+http://getbootstrap.com/css/#forms-control-sizes
+
+*/
+
+/*
+.nav-tabs{
+  background-color: #f5f5f5;
+}
+*/

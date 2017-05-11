@@ -1,0 +1,32 @@
+{
+  "name": "my-2d-diagram-editor",
+  "version": "1.0.0",
+  "description": "A browser-based 2D diagram editor.",
+  "main": "app-module.js",
+  "authors": [
+    "Rob Ferguson"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "https://github.com/Robinyo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "bootstrap-css": "3.1.1",
+    "angular-animate": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "fabric.js": "fabric#~1.5.0",
+    "angular-translate": "~2.8.1",
+    "angular-translate-loader-static-files": "~2.8.1",
+    "font-awesome": "fontawesome#~4.5.0",
+    "stacktrace-js": "~1.0.1"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "BRAND_NAME":                  "Rob's Awesome 2D Diagrammeditor",
+
+  "TOGGLE_NAVIGATION":           "Toggle -Navigation",
+  "SIGN_IN":                     "Anmelden",
+
+  "ENGLISH":                     "Englisch",
+  "POLISH":                      "Polieren",
+  "GERMAN":                      "Deutsch",
+
+  "FILE":                        "Datei",
+  "FILE_NEW":                    "Neu...",
+  "CLOSE":                       "Nah dran",
+
+  "EDIT":                        "Bearbeiten",
+  "UNDO":                        "Rückgängig machen",
+  "REDO":                        "Wiederherstellen",
+  "CUT":                         "Cut",
+  "COPY":                        "Copy",
+  "PASTE":                       "Paste",
+  "DELETE":                      "Löschen",
+
+  "VIEW":                        "Aussicht",
+  "GRID":                        "Gitter",
+  "SNAP_TO_GRID":                "Am Raster ausrichten",
+
+  "ARRANGE":                     "Arrangieren",
+  "BRING_FORWARD":               "Bring Forward",
+  "BRING_TO_FRONT":              "Voran bringen",
+  "SEND_BACKWARD":               "Nach hinten",
+  "SEND_TO_BACK":                "In den Hintergrund",
+
+  "OPTIONS":                     "Optionen",
+  "LANGUAGE":                    "Sprache",
+  "HELP":                        "Hilfe",
+
+  "ZOOM_IN":                     "Hineinzoomen",
+  "ZOOM_OUT":                    "Rauszoomen",
+
+  "POINTER":                     "Set Pointer - Modus",
+  "CONNECTOR":                   "Set Anschluss - Modus",
+  "LOCK":                        "Sperren",
+  "COMMENT":                     "Kommentar",
+
+  "SHAPES":                      "Formen",
+  "SQUARE":                      "Platz",
+  "RECTANGLE":                   "Rechteck",
+
+  "NODE":                        "Knoten",
+
+  "CONTAINERS":                  "Behälter",
+  "CONTROLLED_ZONE":             "Kontrollierten Zone",
+  "RESTRICTED_ZONE":             "Sperrzone",
+  "SECURED_ZONE":                "Gesicherten Zone",
+  "PARTNER_ZONE":                "Partnerbereich",
+  "MANAGEMENT_ZONE":             "Verwaltungszone",
+
+  "FORMAT_DIAGRAM":              "Formatdiagramm",
+  "PAPER_SIZE":                  "Papier größe",
+  "PORTRAIT":                    "Porträt",
+  "LANDSCAPE":                   "Landschaft",
+
+  "FORMAT_SHAPE":                "Shape formatieren",
+  "TEXT":                        "Text",
+  "NAME":                        "Name",
+  "FONT":                        "Schriftart",
+  "FONT_SIZE":                   "Schriftgröße",
+  "FONT_STYLE":                  "Schriftstil",
+  "BOLD":                        "Fett gedruckt",
+  "ITALIC":                      "Kursiv",
+  "ALIGNMENT":                   "Ausrichtung",
+  "ALIGN_LEFT":                  "Align Left",
+  "ALIGN_CENTER":                "Linksbündig",
+  "ALIGN_RIGHT":                 "Rechts ausrichten",
+  "ALIGN_TOP":                   "oben ausrichten",
+  "ALIGN_MIDDLE":                "Vertikal zentrieren",
+  "ALIGN_BOTTOM":                "unten ausrichten",
+
+  "STYLE":                       "Stil",
+  "STYLES":                      "Styles",
+  "SHAPE_STYLES":                "Formenarten",
+  "THEME":                       "Thema",
+  "THEME_STYLES":                "Stilarten",
+  "FILL":                        "Füllen",
+  "LINE":                        "Linie",
+  "EFFECTS":                     "Auswirkungen",
+
+  "ARRANGE":                     "Arrangieren",
+  "ALIGN":                       "Ausrichten",
+  "POSITION":                    "Position",
+  "GROUP":                       "Gruppe",
+
+
+  "COMING_SOON":                 "Demnächst :)"
+}
